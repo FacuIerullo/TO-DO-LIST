@@ -5,9 +5,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main{
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  gap: 5px;
+}
+
+.input{
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px #999
+}
+
+.buttonTask{
+  border: none;
+  border-radius: 3px;
+  background-color: #032d7c;
+  color: white;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.toDo{
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+}
+
+.task{
+  flex: 1;
+  font-size: 15px;
+  border: solid 1px #999;
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  gap: 5px;
+}
+
+.buttonEdit{
+  border: none;
+  border-radius: 3px;
+  background-color: #037c5e;
+  color: white;
+  padding: 10px 20px;
+}
+
+.buttonDelete{
+  border: none;
+  border-radius: 3px;
+  background-color: #8d0303;
+  color: white;
+  padding: 10px 20px;
 }
